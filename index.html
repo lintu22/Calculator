@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <!-- Display Area -->
+        <div class="calculator__display">
+            <div class="calculator__output">0</div>
+        </div>
+        <!-- Buttons -->
+        <div class="calculator__buttons">
+            <button class="calculator__button calculator__button--operator" data-operator="add">&plus;</button>
+            <button class="calculator__button calculator__button--operator" data-operator="subtract">&minus;</button>
+            <button class="calculator__button calculator__button--operator" data-operator="multiply">&times;</button>
+            <button class="calculator__button calculator__button--operator" data-operator="divide">&divide;</button>
+            <button class="calculator__button">1</button>
+            <button class="calculator__button">2</button>
+            <button class="calculator__button">3</button>
+            <button class="calculator__button">4</button>
+            <button class="calculator__button">5</button>
+            <button class="calculator__button">6</button>
+            <button class="calculator__button">7</button>
+            <button class="calculator__button">8</button>
+            <button class="calculator__button">9</button>
+            <button class="calculator__button">.</button>
+            <button class="calculator__button">0</button>
+            <button class="calculator__button calculator__button--clear" data-operator="clear">AC</button>
+            <button class="calculator__button calculator__button--equals" data-operator="calculate">&equals;</button>
+        </div>
+    </div>
+
+<script src="app.js"></script>    
+</body>
+</html>
