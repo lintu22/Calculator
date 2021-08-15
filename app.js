@@ -100,6 +100,7 @@ buttons.forEach(button => button.addEventListener('click', function() {
             input = '';
             output.textContent = '0';
             firstInput = '';
+            decimalCount = 0;
             console.info('Cleared.');
             return;
         } 
