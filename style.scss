@@ -22,6 +22,10 @@ body {
     max-width:535px;
     // height:30em;
 
+    @media (max-width:540px) {
+        max-width:90%;
+    }
+
     &__display {
         background-color: $color-02;
         text-align: right;
@@ -32,12 +36,18 @@ body {
     &__output {
         font: 4.75em/1 $font-primary;
         color:$color-01;
+        @media (max-width:540px) {
+           font-size:12vw;
+        }
     }
     &__buttons {
         margin:2em;
         display:grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap:1em;
+        @media (max-width:540px) {
+           grid-gap:4vw;
+        }
     }
     &__button {
         font-size:2.375em;
@@ -47,6 +57,9 @@ body {
         box-shadow:none;
         padding:.5em .7em;
         border-radius: .5em;
+        @media (max-width:540px) {
+            font-size:6vw;
+        }
         &--equals {
             grid-row-start: 2;
             grid-row-end:6;
