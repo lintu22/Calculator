@@ -23,3 +23,8 @@ HTML, SCSS, JavaScript, Figma (for the calculator design/layout)
     * Fixed bug where user could not add a decimal place on second input.
 * 0.1 
     * Initial Release
+
+
+### Links
+
+[Figma Design File](https://www.figma.com/file/RPLta8Ylqe7GhRD0yxS4AE/Untitled?node-id=1%3A2)
