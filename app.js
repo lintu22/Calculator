@@ -83,6 +83,8 @@ buttons.forEach(button => button.addEventListener('click', function() {
         // If the button is aleady on 0, don't add another 0
         if (output.textContent === '0' && button.textContent === '0') {
             return;
+        } else if (output.textContent === '0' && button.textContent === '.') {
+            input += '0';
         }
         // recieve's the input from the button and displays to output display
         input += button.textContent;

@@ -11,11 +11,14 @@ HTML, SCSS, JavaScript, Figma (for the calculator design/layout)
 ### Known Issues
 
 **Bugs**
-- Bug when starting with a decimal, there is no zero before the decimal place. E.g. 0.2 is appearing as .2
+
+ [x] Bug when starting with a decimal, there is no zero before the decimal place. E.g. 0.2 is appearing as .2
 
 **TO DO**
-- If the number input is greater than 10 digits it will break out of the display area. It should resize to fit.
-- Allow multiple math operations. Currently you can only calculate two numbers. E.g (5 x 2 = 10) the calculator cannot handle more than this currently. I will change this.
+
+ [ ] If the number input is greater than 10 digits it will break out of the display area. It should resize to fit.
+
+ [ ] Allow multiple math operations. Currently you can only calculate two numbers. E.g (5 x 2 = 10) the calculator cannot handle more than this currently. I will change this.
 
 ### Version History
 
