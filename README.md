@@ -12,7 +12,7 @@ HTML, SCSS, JavaScript, Figma (for the calculator design/layout)
 
 **Bugs**
 
- [x] Bug when starting with a decimal, there is no zero before the decimal place. E.g. 0.2 is appearing as .2
+ ~~[x] Bug when starting with a decimal, there is no zero before the decimal place. E.g. 0.2 is appearing as .2~~
 
 **TO DO**
 
